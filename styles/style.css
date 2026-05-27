@@ -91,6 +91,19 @@ p {
   gap: 386px;
 }
 
+.logotype {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-image {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
 .logo {
   font-size: 24px;
   font-weight: 400;
@@ -104,14 +117,15 @@ p {
 }
 
 .nav_list {
+  padding: 5px;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 80px;
 }
 
 .nav_list a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   color: #1F2937;
 }
 
@@ -149,7 +163,7 @@ p {
 }
 .hero .container {
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 52px;
   padding-top:75px;
   padding-bottom: 75px;
 }
@@ -161,7 +175,7 @@ p {
 }
 
 .hero_left {
-  max-width: 865px;
+  max-width: 868px;
 }
 
 .hero_label,
@@ -201,26 +215,34 @@ p {
 
 .hero_actions {
   display: flex;
-  gap: 15px;
+  gap: 52px;
 }
 
 .hero_right {
+  position: relative;
   flex-shrink: 0;
+  width: 575px;
+  height: 468px;
+  overflow: visible;
 }
 
 .hero-card {
-  width: 665px;
-  min-height: 470px;
+  position: relative;
+  width: 575.14px;
+  height: 468px;
   padding: 24px;
   border-radius: 28px;
   background-color: #CCE2FF;
   box-shadow: var(--shadow-soft);
-  font-weight: 300;
+  overflow: visible;
 }
 
 .hero-card_meta {
+  position: relative;
+  z-index: 2;
   margin-bottom: 20px;
   font-size: 20px;
+  font-weight: 300;
   line-height: 1.5;
   color: #4B5563;
 }
@@ -231,6 +253,17 @@ p {
   justify-content: space-between;
   gap: 24px;
 }
+
+.hero-card_image {
+  position: absolute;
+  left: -90px;
+  bottom: -8px;
+  width: 786px;
+  max-width: none;
+  z-index: 3;
+  clip-path: inset(0 122px 0 0);
+}
+
 
 .section-heading h2 {
   margin-bottom: 14px;
