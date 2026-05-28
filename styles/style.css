@@ -458,6 +458,10 @@ p {
   color: var(--color-text);
 }
 
+.cars {
+  background-color: #F8FAFC;
+}
+
 .cars-toolbar {
   display: flex;
   align-items: center;
@@ -490,10 +494,15 @@ p {
   color: #6B7280;
   outline: none;
   appearance: none;
-  background-image: url("/Users/iaroslav.hludnev/project/project/filter.svg");
+  background-image: url("/Users/iaroslav.hludnev/project/project/images/filter.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
   background-size: 16px;
+}
+
+.cars-filter:focus {
+  border-color: #1A73E8;
+  color: var(--color-text);
 }
 
 .cars-search-button {
@@ -506,6 +515,94 @@ p {
   font-weight: 350;
   color: #ffffff;
   cursor: pointer;
+}
+
+.cars-search-button:hover {
+  box-shadow: 0 14px 30px rgba(26, 115, 232, 0.28);
+}
+
+.cars-search-button:active {
+  transform: translateY(1px);
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 35px 42px;
+}
+
+.car-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.car-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px;
+  pointer-events: none;
+}
+
+.car-card_media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 5px 5px;
+}
+
+.car-card_media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px 20px 5px 5px;
+  pointer-events: none;
+}
+
+.car-card_image {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.car-card_content {
+  padding: 17px 10px 13px;
+}
+
+.car-card_title {
+  margin-bottom: 12px;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.car-card_price {
+  margin-bottom: 10px;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 350;
+  color: var(--color-primary);
+}
+
+.car-card_meta {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 350;
+  color: var(--color-text-muted);
+}
+
+.car-card_specs {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 350;
+  color: #4B5563;
 }
 
 
