@@ -605,6 +605,254 @@ p {
   color: #4B5563;
 }
 
+.community {
+  background-color: white;
+}
+
+.community-layout {
+  display: grid;
+  grid-template-columns: 1.15fr 0.95fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.community-featured-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.community-side-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.community-featured-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #E5E7EB;
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.community-side-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px;
+  pointer-events: none;
+}
+
+.community-featured-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 464px;
+  gap: 30px;
+  min-height: 400px;
+  padding: 29px 25px;
+}
+
+.community-featured-card_content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.community-author {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+}
+
+.community-author_avatar {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.community-author_avatar-l {
+  width: 61px;
+  height: 61px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.community-author_avatar img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.community-author_avatar-l img {
+  display: block;
+  width: 61px;
+  height: 61px;
+  object-fit: cover;
+}
+
+.community-author_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.community-author_name {
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.community-author_meta {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: var(--color-text-muted);
+}
+
+.community-featured-card_title {
+  max-width: 415px;
+  margin-top: 21px;
+  margin-bottom: 43px;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.community-featured-card_text {
+  max-width: 415px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.community-featured-card_stats {
+  display: flex;
+  align-items: flex-end;
+  gap: 47px;
+  margin-top: auto;
+  padding-top: 63px;
+}
+
+.community-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-muted);
+}
+
+.community-stat_icon {
+  display: block;
+  width: 20px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.community-stat_value {
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: var(--color-text-muted);
+}
+
+.community-featured-card_media {
+  position: relative;
+  align-self: center;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: var(--shadow-card);
+}
+
+.community-featured-card_media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid #E5E7EB;
+  border-radius: 18px;
+  pointer-events: none;
+}
+
+.community-featured-card_image {
+  display: block;
+  width: 100%;
+  height: 307px;
+  object-fit: cover;
+}
+
+.community-side-list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.community-side-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 109px;
+  padding: 24px 17px 16px 24px;
+}
+
+.community-side-card_main {
+  display: flex;
+  align-items: center;
+  min-height: 61px;
+}
+
+.community-side-card .community-author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.community-side-card .community-author_avatar {
+  width: 61px;
+  height: 61px;
+  flex-shrink: 0;
+}
+
+.community-side-card .community-author_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 61px;
+}
+
+.community-side-card .community-author_name {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.community-side-card_title {
+  max-width: 478px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: var(--color-text-muted);
+}
+
+.community-side-card_meta {
+  align-self: flex-end;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: var(--color-text-muted);
+}
 
 .cta_wrapper {
   display: flex;
