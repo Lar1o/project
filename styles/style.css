@@ -1135,3 +1135,119 @@ p {
   display: flex;
   gap: 20px;
 }
+
+@media (max-width: 1024px) {
+  :root {
+    --container-main-padding: 45px;
+  }
+
+  .container {
+    width: min(var(--container-main-width), calc(100% - 96px));
+  }
+
+  .header_container {
+    min-height: 89px;
+    gap: 105px;
+  }
+
+  .logo-image {
+    width: 22px;
+    height: 22px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav_list {
+    gap: 46px;
+    padding: 5px;
+
+  }
+
+  .nav_list a {
+    font-size: 12px;
+  }
+
+  .header .button {
+    min-height: 33px;
+    padding: 0 24px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+
+  .hero .container {
+    padding-top: 53px;
+    padding-bottom: 66px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .hero_content {
+    align-items: center;
+    gap: 52px;
+  }
+
+  .hero_left {
+    max-width: 500px;
+  }
+
+  .hero_label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .hero_title {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 1.00;
+  }
+
+  .hero_description {
+    max-width: 400px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.20;
+  }
+
+  .hero_actions {
+    gap: 40px;
+  }
+
+  .hero_actions .button {
+    min-width: 184px;
+    min-height: 35px;
+    padding: 12px 13px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+
+  .hero_right {
+    width: 368px;
+    height: 299px;
+  }
+
+  .hero-card {
+    width: 368px;
+    height: 299px;
+    padding: 17px 0 0 21px;
+    border-radius: 28px;
+  }
+
+  .hero-card_meta {
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.20;
+  }
+
+  .hero-card_image {
+    position: absolute;
+    left: -51px;
+    bottom: -2px;
+    width: 451px;
+    clip-path: inset(0 32px 0 0);
+  }
+}
