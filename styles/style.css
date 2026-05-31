@@ -1622,7 +1622,6 @@ p {
     height: 48px;
   }
 
-  .community-side-card .community-author_name,
   .community-side-card .community-author_name {
     margin-bottom: 9px;
     font-size: 18px;
@@ -1640,5 +1639,151 @@ p {
     font-size: 10px;
     line-height: 1;
     white-space: nowrap;
+  }
+
+  .cta {
+    padding-top: 31px;
+    padding-bottom: 87px;
+  }
+
+  .cta_wrapper {
+    padding: 24px 25px 40px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta_left {
+    margin-bottom: 56px;
+  }
+
+  .cta_label {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .cta_title {
+    max-width: 618px;
+    margin: 0 auto 25px;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .cta_title span {
+    display: block;
+  }
+
+  .cta_description {
+    max-width: 884px;
+    margin: 0 auto 25px;
+    font-size: 20px;
+    line-height: 1.20;
+    text-align: center;
+  }
+
+  .cta_benefits {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 824px;
+    margin: 0 auto;
+    padding: 13px 19px;
+    border-radius: 8px;
+  }
+
+  .cta_benefits .cta_benefits-list {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .cta_benefits .cta_benefits-list li {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .cta_right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-card {
+    width: 100%;
+    max-width: 571px;
+    padding: 20px 55px 20px;
+    border-radius: 16px;
+  }
+
+  .form-card_title {
+    margin-bottom: 50px;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .form-section {
+    margin-bottom: 38px;
+    padding: 18px 18px 17px;
+    border-radius: 12px;
+  }
+
+  .form-section legend {
+    padding: 0 6px;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .form-fields {
+    gap: 20px;
+  }
+
+  .form-fields input {
+    height: 40px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .form-fields-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 30px;
+  }
+
+  .form-checkbox {
+    margin: 12px 17px 23px;
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .form-checkbox input {
+    width: 14px;
+    height: 14px;
+  }
+
+  .form-submit {
+    min-width: 174px;
+    height: 40px;
+    padding: 0 19px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 1;
   }
 }
