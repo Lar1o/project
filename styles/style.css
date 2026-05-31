@@ -1443,52 +1443,202 @@ p {
     border-radius: 20px;
   }
 
-  .car-card_media,
   .car-card_media {
     border-radius: 20px 20px 5px 5px;
   }
 
-  .car-card_media::after,
   .car-card_media::after {
     border-radius: 20px 20px 5px 5px;
   }
 
-  .car-card_image,
   .car-card_image {
     width: 100%;
     height: 165px;
     object-fit: cover;
   }
 
-  .car-card_content,
   .car-card_content {
     padding: 8px 11px 8px;
   }
 
-  .car-card_title,
   .car-card_title {
     margin-bottom: 12px;
     font-size: 18px;
     line-height: 1;
   }
 
-  .car-card_price,
   .car-card_price {
     margin-bottom: 12px;
     font-size: 22px;
     line-height: 1;
   }
 
-  .car-card_specs,
   .car-card_specs {
     margin-bottom: 12px;
     font-size: 14px;
     line-height: 1;
   }
 
-  .car-card_meta,
   .car-card_meta {
     font-size: 14px;
     line-height: 1;
+  }
+
+  .community {
+    padding-top: 41px;
+    padding-bottom: 49px;
+  }
+
+  .community-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .community-featured-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 467px;
+    gap: 22px;
+    min-height: 333px;
+    padding: 16px 25px;
+    border-radius: 18px;
+  }
+
+  .community-featured-card::after {
+    border-radius: 18px;
+  }
+
+  .community-featured-card_content {
+    min-width: 475px;
+  }
+
+  .community-author {
+    gap: 18px;
+  }
+
+  .community-author_avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .community-author_avatar img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .community-author_name {
+    margin-bottom: 7px;
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  .community-author_meta {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .community-featured-card_title {
+    max-width: 420px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .community-featured-card_text {
+    max-width: 439px;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .community-featured-card_stats {
+    gap: 46px;
+    padding-top: 84px;
+    margin-left: 16px;
+  }
+
+  .community-stat_icon {
+    width: 19.62px;
+    height: 18.01px;
+  }
+
+  .community-stat_value {
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .community-featured-card_media {
+    width: 378px;
+    height: 283px;
+    overflow: hidden;
+    justify-self: end;
+    border-radius: 18px;
+  }
+
+  .community-featured-card_media::after {
+    border-width: 2px;
+    border-radius: 18px;
+  }
+
+  .community-featured-card_image {
+    display: block;
+    width: 100%;
+    height: 283px;
+    object-fit: cover;
+  }
+
+  .community-side-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .community-side-card {
+    min-height: 85px;
+    padding: 16px 19px;
+    border-radius: 14px;
+  }
+
+  .community-side-card::after {
+    border-radius: 14px;
+  }
+
+  .community-side-card_main {
+    min-height: auto;
+    align-items: center;
+  }
+
+  .community-side-card .community-author {
+    gap: 16px;
+  }
+
+  .community-side-card .community-author_avatar-l {
+    width: 48px;
+    height: 48px;
+  }
+
+  .community-side-card .community-author_avatar-l img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .community-side-card .community-author_name,
+  .community-side-card .community-author_name {
+    margin-bottom: 9px;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .community-side-card_title {
+    max-width: 560px;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .community-side-card_meta {
+    align-self: flex-end;
+    font-size: 10px;
+    line-height: 1;
+    white-space: nowrap;
   }
 }
