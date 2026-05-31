@@ -921,7 +921,6 @@ p {
   flex-direction: column;
   gap: 35px;
   margin: 0;
-  padding-left: 24px;
   color: var(--color-primary);
 }
 
