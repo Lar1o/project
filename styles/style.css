@@ -2408,4 +2408,127 @@ p {
     order: -1;
     margin-top: 11px;
   }
+
+  .cta {
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+
+  .cta_wrapper {
+    flex-direction: column;
+    padding: 14px 15px;
+    border-radius: 18px;
+    gap: 20px;
+  }
+
+  .cta_left {
+    max-width: 100%;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .cta_label {
+    font-size: 8px;
+    margin-bottom: 23px;
+  }
+
+  .cta_title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+
+  .cta_title span {
+    display: inline;
+    margin-top: 0;
+  }
+
+  .cta_description {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+
+  .cta_benefits {
+    max-width: 100%;
+    margin: 0;
+    padding: 7px 51px;
+    border-radius: 8px;
+  }
+
+  .cta_benefits .cta_benefits-list {
+    flex-direction: column !important;
+    gap: 8px;
+    white-space: normal;
+  }
+
+  .cta_benefits .cta_benefits-list li {
+    font-size: 8px;
+    line-height: 1.2;
+  }
+
+  .cta_right {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .form-card {
+    padding: 19px 14px;
+    border-radius: 14px;
+  }
+
+  .form-card_title {
+    font-size: 14px;
+    margin-bottom: 27px;
+  }
+
+  .form-section {
+    margin-bottom: 22px;
+    padding: 19px 10px 11px 10px;
+    border-radius: 8px;
+  }
+
+  .form-section legend {
+    font-size: 8px;
+  }
+
+  .form-fields {
+    gap: 15px;
+  }
+
+  .form-fields-single {
+    grid-template-columns: 1fr;
+  }
+
+  .form-fields-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .form-card input {
+    height: 25px;
+    font-size: 9px;
+    border-radius: 4px;
+  }
+
+  .form-checkbox {
+    font-size: 8px;
+    gap: 4px;
+    margin: 22px 0 22px 36px;
+  }
+
+  .form-checkbox input {
+    width: 12px;
+    height: 12px;
+  }
+
+  .form-submit {
+    min-width: 140px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 0 19px;
+  }
 }
