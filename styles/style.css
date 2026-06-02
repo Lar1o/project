@@ -1360,6 +1360,128 @@ padding-top: 61px;
   border-color: var(--color-primary);
 }
 
+.listing-details {
+  padding: 60px 0 60px;
+}
+
+.listing-details_layout {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.listing-details_card {
+  background: #F8FAFC;
+  border: 1px solid #E5E7EB;
+  border-radius: 26px;
+  padding: 40px 50px;
+}
+
+.listing-details_title {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 59px;
+}
+
+.listing-specs_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  gap: 2px;
+}
+
+.listing-specs_label {
+  font-size: 26px;
+  font-weight: 300;
+  width: 100%;
+  color: #6b7280;
+}
+
+.listing-specs_value {
+  font-size: 26px;
+  font-weight: 300;
+  color: #111827;
+  width: 100%;
+  text-align: right;
+}
+
+.listing-equipment {
+  display: grid;
+  grid-template-columns: 0.99fr 1.01fr;
+  gap: 0 61px;
+  max-height: 800px;
+}
+
+.listing-equipment_group {
+  font-size: 28px;
+  font-weight: 300;
+  color: #2563eb;
+  margin: 34px 0 15px;
+}
+
+.listing-equipment_col:first-child .listing-equipment_group:first-child,
+.listing-equipment_col:last-child .listing-equipment_group:first-child {
+  margin-top: 0;
+}
+
+.listing-equipment_list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.listing-equipment_list li {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 200;
+  padding-left: 33px;
+  position: relative;
+}
+
+.listing-seller {
+  padding: 0 0 108px;
+}
+
+.listing-seller_card {
+  background: #F8FAFC;
+  border: 1px solid #e5e7eb;
+  border-radius: 26px;
+  padding: 40px 50px;
+}
+
+.listing-seller_title {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 40px;
+}
+
+.listing-seller_text {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.listing-seller_text p {
+  display: block;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 3%;
+  color: #000000;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.listing-seller_text p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 1024px) {
   :root {
     --container-main-padding: 45px;
