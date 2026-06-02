@@ -1267,6 +1267,7 @@ padding-top: 61px;
   flex-shrink: 0;
   margin-right: 30px;
   gap: 12px;
+  color: var(--color-primary);
 }
 
 .listing_badge {
@@ -1300,7 +1301,7 @@ padding-top: 61px;
 .listing_data-title {
   font-size: 28px;
   font-weight: 300;
-  color: #111827;
+  color: var(--color-primary);
   margin-bottom: 23px;
   line-height: 1;
   margin-top: 35px;
@@ -2199,6 +2200,137 @@ padding-top: 61px;
   .footer_links {
     gap: 5px;
   }
+
+  .listing {
+    padding: 42px 0 42px;
+  }
+
+  .breadcrumb {
+    padding: 14px 0;
+  }
+
+  .listing_layout {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+
+  .listing_thumbs {
+    margin-top: 27px;
+  }
+
+  .listing_info {
+    padding-top: 17px;
+    margin-left: 61px;
+    margin-right: 61px;
+  }
+
+  .listing_header {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 49px;
+  }
+
+  .listing_title {
+    font-size: 32px;
+  }
+
+  .listing_price-block {
+    padding-top: 8px;
+  }
+
+  .listing_price {
+    font-size: 32px;
+  }
+
+  .listing_data-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .listing_data-card {
+    margin-bottom: 60px;
+  }
+
+  .listing_actions {
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .listing-details {
+    padding: 49px 0;
+  }
+
+  .listing-details_layout {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .listing-details_card {
+    padding: 40px 50px;
+    max-width: 934px;
+  }
+
+  .listing-details_title {
+    font-size: 32px;
+    margin-bottom: 35px;
+    font-weight: 300;
+  }
+
+  .listing-specs_label,
+  .listing-specs_value {
+    font-size: 26px;
+  }
+
+  .listing-specs_label {
+    min-width: 230px;
+  }
+
+  .listing-specs {
+    display: grid;
+    grid-template-columns: 0.92fr 1.08fr;
+    max-width: 834px;
+    gap: 0 60px;
+  }
+
+  .listing-specs_row {
+    padding: 9px 0;
+    gap: 10px;
+  }
+
+  .listing-equipment {
+    grid-template-columns: 1fr 1fr;
+    gap: 0 32px;
+  }
+
+  .listing-equipment_group {
+    font-size: 28px;
+    margin: 34px 0 15px;
+  }
+
+  .listing-equipment_list li {
+    font-size: 22px;
+    padding-left: 32px;
+  }
+
+  .listing-seller {
+    padding: 0 0 49px;
+  }
+
+  .listing-seller_card {
+    padding: 40px 37px;
+  }
+
+  .listing-seller_title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .listing-seller_text {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
 }
 
 @media (max-width: 320px) {
