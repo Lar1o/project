@@ -1200,7 +1200,7 @@ padding-top: 61px;
 }
 
 .listing_main-photo {
-  width: 100%;
+  width: 860px;
   height: 520px;
   border-radius: 20px;
   border: 2px solid #E5E7EB;
@@ -1352,7 +1352,7 @@ padding-top: 61px;
 
 .listing_btn {
   flex: 1;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 200px !important;
   max-width: 280px;
   padding: 22px 14px;
