@@ -3073,4 +3073,222 @@ padding-top: 61px;
   .footer_links a {
     font-size: 7px;
   }
+
+  .breadcrumb {
+    padding: 6px 0;
+    font-size: 8px;
+    gap: 2px;
+  }
+
+  .listing {
+    padding: 20px 0 20px;
+    background-color: #F8FAFC;
+  }
+
+  .listing_gallery {
+    width: 100%;
+  }
+
+  .listing_layout {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .listing_main-photo {
+    width: 100%;
+    height: 180px;
+    border-radius: 6px;
+    border: 1px solid #E5E7EB;
+  }
+
+  .listing_main-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .listing_thumbs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .listing_thumb {
+    width: 65px;
+    height: 40px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 4px;
+    aspect-ratio: unset;
+  }
+
+  .listing_thumb::after {
+    border-radius: 4px;
+  }
+
+  .listing_info {
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .listing_header {
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 12px;
+    padding: 0 15px;
+  }
+
+  .listing_title {
+    font-size: 14px;
+  }
+
+  .listing_price-block {
+    text-align: right;
+    margin-right: 0;
+    margin-top: 3px;
+  }
+
+  .listing_badge {
+    font-size: 6px;
+    padding: 3px 6px;
+  }
+
+  .listing_price {
+    font-size: 14px;
+  }
+
+  .listing_data-card {
+    padding: 20px 20px 0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .listing_data-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .listing_data-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .listing_data-row {
+    padding: 6px 0;
+  }
+
+  .listing_data-label,
+  .listing_data-value {
+    font-size: 10px;
+  }
+
+  .listing_actions {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .listing_btn-1 {
+    font-size: 10px;
+    min-height: 24px;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+
+  .listing_btn {
+    font-size: 10px;
+    min-height: 24px;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+
+  .listing-details {
+    padding: 27px 0 35px;
+  }
+
+  .listing-details_layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .listing-details_card {
+    padding: 13px 15px 12px;
+    border-radius: 8px;
+    max-width: 290px;
+  }
+
+  .listing-details_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .listing-specs {
+    grid-template-columns: 1fr;
+    max-width: 260px;
+    gap: 0;
+  }
+
+  .listing-specs_row {
+    padding: 6px 0;
+    gap: 0;
+  }
+
+  .listing-specs_label,
+  .listing-specs_value {
+    font-size: 10px;
+  }
+
+  .listing-specs_label {
+    min-width: 130px;
+  }
+
+  .listing-equipment {
+    grid-template-columns: 1fr;
+  }
+
+  .listing-equipment_group {
+    font-size: 16px;
+    margin: 25px 0 20px;
+  }
+
+  .listing-equipment_list {
+    gap: 10px;
+  }
+
+  .listing-equipment_list li {
+    font-size: 12px;
+    padding-left: 18px;
+  }
+
+  .listing-seller {
+    padding: 0 0 55px;
+  }
+
+  .listing-seller_card {
+    padding: 19px 15px 19px;
+    border-radius: 8px;
+  }
+
+  .listing-seller_title {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .listing-seller_text {
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+
+  .listing-seller_text p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    padding: 6px 0;
+  }
 }
