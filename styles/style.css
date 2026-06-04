@@ -201,7 +201,7 @@ p {
 
 .hero_title {
   margin-bottom: 32px;
-  max-width: 865;
+  max-width: 865px;
   font-size: clamp(28px, 5vw, 75px);
   line-height: 1.00;
   font-weight: 400;
@@ -1802,7 +1802,7 @@ padding-top: 61px;
 
   .news-side-card {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: minmax(120px, 220px) 1fr;
     min-height: 145px;
     height: 145px;
     border-radius: 15px;
@@ -2027,7 +2027,8 @@ padding-top: 61px;
   }
 
   .community-featured-card_media {
-    width: 378px;
+    max-width: 378px;
+    width: 100%;
     height: 283px;
     overflow: hidden;
     justify-self: end;
